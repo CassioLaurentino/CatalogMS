@@ -19,7 +19,7 @@ public class BookDTO {
     private Long id;
 
     @NotBlank
-    //@Size(max = 200)
+    @Size(max = 200)
     private String name;
 
     @NotNull
@@ -29,11 +29,11 @@ public class BookDTO {
     private Integer chapters;
 
     @NotBlank
-    //@Size(max = 100)
+    @Size(max = 100)
     private String isbn;
 
     @NotBlank
-    //@Size(max = 200)
+    @Size(max = 200)
     private String publisherName;
 
     @Valid

@@ -18,10 +18,9 @@ public class AuthorDTO {
     private Long id;
 
     @NotBlank
-    //@Size(max = 200)
+    @Size(max = 200)
     private String name;
 
     @NotNull
-    //@Size(max = 100)
     private Integer age;
 }
