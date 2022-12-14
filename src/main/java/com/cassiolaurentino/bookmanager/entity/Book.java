@@ -1,6 +1,5 @@
 package com.cassiolaurentino.bookmanager.entity;
 
-import javax.persistence.CacheStoreMode;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
