@@ -1,4 +1,4 @@
-package com.cassiolaurentino.bookmanager.dto;
+package com.challenge.catalog.dto;
 
 import lombok.Builder;
 import lombok.Data;

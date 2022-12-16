@@ -8,10 +8,10 @@
 		<version>2.7.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cassiolaurentino</groupId>
-	<artifactId>bookmanager</artifactId>
+	<groupId>com.challange</groupId>
+	<artifactId>catalog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bookmanager</name>
+	<name>catalog</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

@@ -1,4 +1,4 @@
-package com.cassiolaurentino.bookmanager.entity;
+package com.challenge.catalog.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Author {
+public class Product {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,5 +26,10 @@ public class Author {
     private String name;
 
     @Column(nullable = false)
-    private Integer age;
+    private String description;
+
+    @Column(nullable = false)
+    private Float price;
+
+    //@ManyToOne(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
 }

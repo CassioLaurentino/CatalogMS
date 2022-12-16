@@ -1,6 +1,5 @@
-package com.cassiolaurentino.bookmanager.dto;
+package com.challenge.catalog.dto;
 
-import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -14,29 +13,18 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class BookDTO {
+public class ProductDTO {
     
     private Long id;
 
     @NotBlank
-    @Size(max = 200)
+    @Size(max = 100)
     private String name;
 
-    @NotNull
-    private Integer pages;
-
-    @NotNull
-    private Integer chapters;
-
-    @NotBlank
-    @Size(max = 100)
-    private String isbn;
-
     @NotBlank
     @Size(max = 200)
-    private String publisherName;
+    private String description;
 
-    @Valid
     @NotNull
-    private AuthorDTO author;
+    private Float price;
 }
