@@ -20,7 +20,7 @@ import com.challenge.catalog.exception.ProductNotFoundException;
 import com.challenge.catalog.service.ProductService;
 
 @RestController
-@RequestMapping("productInventory/producatManagement/v1/products")
+@RequestMapping("/productInventory/producatManagement/v1/products")
 public class CatalogController {
     
     private ProductService productService;
